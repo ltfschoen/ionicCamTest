@@ -1,23 +1,23 @@
 Setup
 =====================
 
-ionic start ionicCameraApp
-cd ionicCameraApp/
-ionic platform add android
-npm install
-bower install
-ionic run android -lcs
+```ionic start ionicCameraApp```
+```cd ionicCameraApp/```
+```ionic platform add android```
+```npm install```
+```bower install```
+```ionic run android -lcs```
 
-# create templates/cam.html
-# add route for cam.html to app.js
-# add tab icon to templates/tab.html
-# add controller CamCtrl to js/controllers.js
-# remove disused services.js and dependency registration
-# remove disused /templates
-# remove disused controllers from js/controllers.js
+create templates/cam.html
+add route for cam.html to app.js
+add tab icon to templates/tab.html
+add controller CamCtrl to js/controllers.js
+remove disused services.js and dependency registration
+remove disused /templates
+remove disused controllers from js/controllers.js
 
-ionic plugin add cordova-plugin-camera
-ionic run android -lcs
+```ionic plugin add cordova-plugin-camera```
+```ionic run android -lcs```
 
 Ionic App Base
 =====================
