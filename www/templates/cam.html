@@ -1,0 +1,17 @@
+<ion-view view-title="Cam">
+  <ion-content class="has-header padding scroll">
+    <ion-list>
+
+      <form name="myForm">
+        <div class="item">
+          <button class="button button-block button-positive icon-left ion-ios7-camera" ng-click="takePicture()">Camera</button>
+        </div>
+      </form>
+      <div ng-controller='CamCtrl'>
+        <img ng-src="mypicture">
+        <img src="{{mypicture}}">
+      </div>
+    </ion-list>
+
+  </ion-content>
+</ion-view>
